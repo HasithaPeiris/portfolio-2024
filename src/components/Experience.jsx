@@ -81,4 +81,4 @@ const Experience = () => {
   );
 };
 
-export default SectionContainer(Experience, "work");
+export default SectionContainer(Experience, "experience");

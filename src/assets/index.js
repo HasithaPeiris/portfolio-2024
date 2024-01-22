@@ -26,12 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import akuru from "./akuru.png";
 import saha from "./saha.png";
 import weatherly from "./weatherly.png";
+import sumz from "./sumz.png";
+import kro from "./kro.png";
+import accohub from "./accohub.jpg";
 
 export {
   logo,
@@ -59,10 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   akuru,
   saha,
   weatherly,
+  sumz,
+  kro,
+  accohub,
 };

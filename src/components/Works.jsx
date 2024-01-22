@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionContainer(Works, "");
+export default SectionContainer(Works, "work");

@@ -19,13 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   akuru,
   saha,
   weatherly,
+  sumz,
+  kro,
+  accohub,
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -201,9 +201,72 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Akuru",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I am proud to have developed 'Akuru,' a comprehensive Sinhala Font Manager designed to enhance the user experience for typography within the Sinhala language space.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: akuru,
+    source_code_link: "https://github.com/HasithaPeiris/akuru-v1.1",
+  },
+  {
+    name: "Sumz",
+    description:
+      "A web application that provides users with a convenient article summarization tool. Users can input article URLs, and the application generates concise summaries.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sumz,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Weatherly",
+    description:
+      "I am excited to present a weather forecasting web application that provides users with a seamless and intuitive experience for accessing accurate weather forecasts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: weatherly,
+    source_code_link: "https://github.com/HasithaPeiris/weather-app",
+  },
+  {
+    name: "SAHA Translator",
+    description:
+      "A sophisticated language translator web application utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack for my third-year 1st-semester research project at university.",
     tags: [
       {
         name: "react",
@@ -218,20 +281,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: akuru,
-    source_code_link: "https://github.com/",
+    image: saha,
+    source_code_link: "https://github.com/HasithaPeiris/saha-translator-v1.0",
   },
   {
-    name: "Job IT",
+    name: "KRO Online Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A fully functional e-commerce platform encompasses a wide range of functionalities, including product management, cart management, user management, and payment processing.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kro,
+    source_code_link: "https://github.com/HasithaPeiris/online-apparel-store",
+  },
+  {
+    name: "AccoHub Mobile App",
+    description:
+      "A dedicated mobile application to simplify the housing search for university students and boarding owners. it connects students with suitable accommodations.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
@@ -239,29 +323,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: saha,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: weatherly,
-    source_code_link: "https://github.com/",
+    image: accohub,
+    source_code_link: "https://github.com/HasithaPeiris/acco-hub-v1",
   },
 ];
 
